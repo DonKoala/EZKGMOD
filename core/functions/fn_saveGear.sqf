@@ -2,7 +2,7 @@
     File: fn_saveGear.sqf
     Author: Bryan "Tonic" Boardwine
     Full Gear/Y-Menu Save by Vampire
-    Edited: Itsyuka, M4rc3lloX - cop save gear.. hopefully o.0
+    Edited: Koala
     
     Description:
     Saves the players gear for syncing to the database for persistence..

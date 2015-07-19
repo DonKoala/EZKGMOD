@@ -11,8 +11,8 @@ if(_item == "") exitWith {};
 
 switch (_item) do
 {
-	case "oilu": {6};
-	case "oilp": {3};
+	case "oilu": {4};
+	case "oilp": {1};
 	case "heroinu": {7};
 	case "heroinp": {3};
 	case "cannabis": {7};
@@ -94,6 +94,7 @@ switch (_item) do
 	case "zucker": {3};
 	case "bottledwhiskey": {5};
 	case "goldschatz": {8};
+	case "scheere": {1};
 	
 	default {1};
 };

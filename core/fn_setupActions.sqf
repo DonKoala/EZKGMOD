@@ -4,7 +4,7 @@
 	Description:
 	Master addAction file handler for all client-based actions.
 	
-	edited by M4rc3llOX
+	edited by Koala
 */
 switch (playerSide) do
 {
@@ -23,7 +23,13 @@ switch (playerSide) do
 		//mais aufheben
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Mais steheln</t>",life_fnc_packupmais,"",0,false,false,"",' _mais = nearestObjects[getPos player,["Land_Sack_F"],2] select 0; !isNil "_mais" ']];
 		//zucker aufheben
-		life_actions = life_actions + [player addAction["<t color='#FF0000'>Zucker steheln</t>",life_fnc_packupzucker,"",0,false,false,"",' _zucker = nearestObjects[getPos player,["Land_CanisterPlastic_F"],2] select 0; !isNil "_zucker" ']]
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Zucker steheln</t>",life_fnc_packupzucker,"",0,false,false,"",' _zucker = nearestObjects[getPos player,["Land_CanisterPlastic_F"],2] select 0; !isNil "_zucker" ']];
+		//Kegel aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Kegel aufheben</t>",life_fnc_packupkegel,"",0,false,false,"",' _kegel = nearestObjects[getPos player,["RoadCone_L_F"],8] select 0; !isNil "_kegel" && !isNil {(_kegel getVariable "item")}']];
+		//Barriere aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere aufheben</t>",life_fnc_packupbarrier,"",0,false,false,"",' _barrier = nearestObjects[getPos player,["RoadBarrier_F"],8] select 0; !isNil "_barrier" && !isNil {(_barrier getVariable "item")}']];
+	    //Barriere Klein aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere klein aufheben</t>",life_fnc_packupbarriersmall,"",0,false,false,"",' _barriersmall = nearestObjects[getPos player,["RoadBarrier_small_F"],8] select 0; !isNil "_barriersmall" && !isNil {(_barriersmall getVariable "item")}']];
 
 		
 	};

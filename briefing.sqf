@@ -19,7 +19,6 @@ player createDiarySubject ["trenner2","———————"];
 		]
 	];
 */
-$
 	
 
 	player createDiaryRecord ["info",
@@ -37,23 +36,26 @@ $
 			"Infos",
 				"
 				<font color='#F4FA58'>Unser Team besteht derzeit aus folgenden Personen:</font><br/>
-				Developer / Scripter: Dieter Nantz<br/>
-				Developer / Mapper: Uschi Nantz <br/>
-				Designer / Künstler: Uschi Nantz ,Michael Nantz, John Krüger<br/>
-				Server-Projektleitung:<br/>
-				   Uschi Nantz,<br/>
-				   Dieter Nantz,<br/>
-				   Vogti<br/>
-				Ts3-Techniker: Michael Nantz ,Magnus Hilten,John Krüger <br/>
-				Community Manager: Vogti Krüger ,Magnus Hilten, Vogti Krüger<br/><br/>
+				Developer / Scripter: Dieter Baker<br/>
+				Developer / Mapper: Tessa Salwini <br/>
+				Developer / Modpack/Hilfe: David Nantz, Michael Baker, John Krüger  <br/>
+				Designer / Künstler: Tessa Salwini, Michael Baker, John Krüger<br/> <br/>
+				
+				<font color='#F4FA58'>Server-Projektleitung:</font><br/>
+				   Tessa Salwini,<br/>
+				   Dieter Baker,<br/>
+				   Vogti Krüger<br/><br/>
+				   
+				Ts3-Techniker: Michael Baker, Magnus Hilten, John Krüger <br/>
+				Community Manager: Vogti Krüger,Vogti Krüger<br/><br/>
 				
 				<font color='#F4FA58'>Wo finde ich Was?</font><br/>
 				Teamspeak3-Adresse: 146.0.32.117 <br/>
 				Gameserver-Adresse: 146.0.32.117<br/>
-				Regeln und Bußgeldkatalog: Im Forum ( www.Entzugsklinik-Gaming.de)<br/><br/>
+				Regeln und Bußgeldkatalog: Im Forum ( www.Entzugsklinik-Gaming.de/Forum)<br/><br/>
 				
 				<font color='#F4FA58'>Über die Streamer und Youtuber:</font><br/>
-				Auf unserem Server wird aufgenommen undgestreamt!<br/>
+				Auf unserem Server wird aufgenommen und gestreamt!<br/>
 				Sollte Jemand dies nicht mögen solle Er<br/>
 				doch bitte wo anders spielen :)<br/>
 				Mit freundlichen Grüßen, Das Entzugsklinik-Team
@@ -66,9 +68,10 @@ $
 		[
 			"Regeln / Bußgeldkatalog",
 				"
-				!! Unbedingt die Regeln im Forum beachten !! <br/><br/>
-				Hier die Grundlegenden Regeln. Die Ausführlichen aktuellen Regeln sind in unserem Forum zu finden.<br/><br/>
-				- Die New-Life Regel gilt für ALLE Spieler. Das heißt, dass ihr nach eurem tot 15 Min warten müsst bis ihr wieder teilnehmen dürft.<br/>
+				<font color='#FF0000'>!! Unbedingt die Regeln im Forum beachten !! <br/>
+				Dies ist nur ein Auszug aus den Regeln ! <font/><br/>
+				<font color='#FFA500'>Verhaltensweisen und Aktionen, die nicht in den Regeln stehen, können trotzdem bestraft werden, wenn sie vom Admin-Team als schädlich für den Server, oder die Spielergemeinschaft befunden werden.<font/><br/><br/>
+				- Die New-Life Regel gilt für ALLE Spieler. Ihr dürft nach eurem Tot 15 Min nicht mehr an diesem RP teilnehmen.<br/>
 				- RDM und VRDM sind verboten <br/>
 				- Am Marktplatz dürfen keine Fahrzeuge via Dietrich geklaut werden.<br/>
 				- Das Schießen auf andere ohne RP-Hintergrund und ohne Ankündigung ist Verboten. <br/>
@@ -81,18 +84,21 @@ $
 				<br/>
 				-------------------------------------------------------------- <br/>
 				- Die Flughöhe über Städten beträgt 150m. <br/>
-				- Fremde Fahrezuge dürfen nicht via Haken geklaut etc werden. <br/>
-				- Man darf keine LKWs via Haken zum Farmen transportieren. <br/>
+				- Fremde Fahrzeuge dürfen nicht via Helikopter-Haken geklaut etc werden. <br/>
+				- Man darf keine LKWs via Helikopter-Haken zum Farmen transportieren. <br/>
 				
 				<br/>
 				-------------------------------------------------------------- <br/>
 				Safezones: <br/>
 				- Alle Garagen, Bankautomaten (ATMs), Shops (Markt, Zubehör, etc) im Umkreis von 20 m. <br/>
-				
+				- Krankenhaus, Medic HQ und ADAC Station. <br/>
 				<br/>
 				-------------------------------------------------------------- <br/>
 				Illegale Güter/Fahrzeuge etc: <br/>
-				- Ghili; alle Waffen ausser die Waffen die es beim Waffenhändler gibt; Alle Polizei Waffen, Kleidung, Items<br/>
+				- Alle Ghilis; <br/>
+				- Alle Waffen ausser die Waffen die es beim Waffenhändler gibt; Alle Polizei Waffen, Kleidung, Items<br/>
+				- GAZ-233011; Alle Polizei, ADAC, Medic Fahrzeuge<br/>
+				- Nachtüber sind karts verboten <br/>
 				- in jeglichem Stadium der Verarbeitung/Ernte: Schildkröten; Kokain; Heroin; Marijuana; Meth; LSD; Uran<br/>
 				
 				<br/>
@@ -101,8 +107,6 @@ $
 				- Geiselnahmen sind erst ab 4 Cops zulässig. Das Lösegeld darf pro Geisel nicht mehr als 1.Mio betragen <br/>
 				- Banküberfälle sind erst ab 5 Cops möglich. <br/>
 				- Tankstellenüberfälle sind erst ab 2 Cops möglich.<br/>
-				
-	
 				"
 		]
 	];	
@@ -112,7 +116,7 @@ $
 			"Changelog",
 				"
 				Alle aktuellen Changelogs sind im Forum zu finden.<br/>
-				Entzugsklinik-Gaming.de/<br/><br/>
+				http://entzugsklinik-gaming.de/forum/index.php/Board/20-Changelogs/<br/><br/>
 				"
 		]
 	];
@@ -160,8 +164,8 @@ $
 					<font color='#F4FA58'>Left Shift/Strg + H</font> Zweitwaffe holstern / ziehen <br/><br/>
 					
 					<font color='#F4FA58'>Left Windows</font> Hauptinteraktionstaste: <br/>
-					- für das Aufheben von Gegenständen und Geld muss T<br/>
-					  gegebenfalls gedrückt werden<br/>
+					- für das Aufheben von Gegenständen und Geld muss<br/>
+					  ggf. T gedrückt werden<br/>
 					- Sammeln / Farmen, Interaktion <br/>
 					- mit Fahrzeugen und für die Polizei im <br/>
 					  Umgang mit den Zivilisten <br/><br/>

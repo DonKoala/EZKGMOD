@@ -144,6 +144,9 @@ switch(_shop) do
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
 						["rhsusf_acc_ACOG",nil,300],
+						["hlc_smg_mp5a2",nil,30000],								
+						["hlc_smg_mp5a3",nil,30000],	
+                		["hlc_30Rnd_9x19_B_MP5",nil,300],
 						["arifle_mas_hk416",nil,30000],
 						["arifle_mas_hk416c",nil,30000],
 						["30Rnd_mas_556x45_Stanag",nil,300],
@@ -172,6 +175,9 @@ switch(_shop) do
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
 						["rhsusf_acc_ACOG",nil,300],
+						["hlc_smg_mp5a2",nil,30000],								
+						["hlc_smg_mp5a3",nil,30000],	
+                		["hlc_30Rnd_9x19_B_MP5",nil,300],
 						["rhsusf_acc_LEUPOLDMK4",nil,300],
 						["rhsusf_acc_LEUPOLDMK4_2",nil,300],						
 						["arifle_mas_hk416",nil,30000],
@@ -207,6 +213,9 @@ switch(_shop) do
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
 						["rhsusf_acc_ACOG",nil,300],
+						["hlc_smg_mp5a2",nil,30000],								
+						["hlc_smg_mp5a3",nil,30000],	
+                		["hlc_30Rnd_9x19_B_MP5",nil,300],
 						["rhsusf_acc_LEUPOLDMK4",nil,300],
 						["rhsusf_acc_LEUPOLDMK4_2",nil,300],
 						["arifle_mas_hk416",nil,30000],
@@ -267,6 +276,9 @@ switch(_shop) do
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
 						["rhsusf_acc_ACOG",nil,300],
+						["hlc_smg_mp5a2",nil,30000],								
+						["hlc_smg_mp5a3",nil,30000],	
+                		["hlc_30Rnd_9x19_B_MP5",nil,300],
 						["rhsusf_acc_LEUPOLDMK4",nil,300],
 						["rhsusf_acc_LEUPOLDMK4_2",nil,300],
 						["arifle_mas_hk416",nil,30000],
@@ -322,16 +334,11 @@ switch(_shop) do
 						["Chemlight_red",nil,200],
 						["Chemlight_yellow",nil,200],
 						["Chemlight_green",nil,200],
-						["Chemlight_blue",nil,200]
-
-						
-						
-						
-						
-						
-						
-						
-
+						["Chemlight_blue",nil,200],
+						["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000]
 					]
 				];
 			};

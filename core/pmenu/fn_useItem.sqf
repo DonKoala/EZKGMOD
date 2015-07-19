@@ -42,6 +42,7 @@ switch (true) do
 	};
 	
 	case (_item == "scheere"): {
+	if(playerSide in [west,Civilian]) exitWith {hint "Die Schere kann nur die Feuerwehr benutzen";};
 		[_item] call life_fnc_scheere;
 	};
 	

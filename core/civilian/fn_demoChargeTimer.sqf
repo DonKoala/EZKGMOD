@@ -1,6 +1,5 @@
 /*
 	READ THE FILE NAME!
-	edited by M4rc3lloX
 */
 private["_uiDisp","_time","_timer"];
 disableSerialization;
@@ -18,6 +17,8 @@ while {true} do {
 	if(!(fed_bank getVariable["chargeplaced",false])) exitWith {};
 	_timer ctrlSetText format["%1",[(_time - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
 	sleep 0.08;
-	[[2,"$$$ THE FEDERAL RESERVE IS BEING ROBBED!!! $$$"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	
 };
 6 cutText["","PLAIN"];
+
+[[2,"$$$ THE FEDERAL RESERVE IS BEING ROBBED!!! $$$"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;

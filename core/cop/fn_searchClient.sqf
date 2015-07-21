@@ -11,15 +11,15 @@ if(isNull _cop) exitWith {};
 _inv = [];
 _robber = false;
 //Illegal items
-{
-	_var = [_x select 0,0] call life_fnc_varHandle;
-	_val = missionNamespace getVariable _var;
-	if(_val > 0) then
-	{
-		_inv pushBack [_x select 0,_val];
-		[false,(_x select 0),_val] call life_fnc_handleInv;
-	};
-} foreach life_illegal_items;
+{ 
+      _itemclass = configName _x;
+      _item = format["life_inv_%1",(configName _x)];
+      _val = missionnamespace getvariable[_item,0]; 
+      if(_val > 0) then { 
+             _inv pushBack [_itemclass,_val];
+             [false,_itemclass,_val] call life_fnc_handleInv;
+      }; 
+} foreach ("getNumber(_x >> 'illegal') isEqualTo 1" configClasses (missionConfigFile >> "VirtualItems"));
 
 if(!life_use_atm) then 
 {

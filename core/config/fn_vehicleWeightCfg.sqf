@@ -41,12 +41,14 @@ switch (_className) do
 	case "A3L_Towtruck": {30};
 	case "max_towtruck": {30};
 	case "rhs_tigr_msv": {30};
-	case "RHS_CH_47F_light": {350};
+	case "RHS_CH_47F": {350};
+	case "RHS_CH_47F_light": {350};	
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
 	case "A3L_Camaro": {20};
 	case "A3L_Atom": {10};
 	case "A3L_Flipcar": {10};
+	case "Cha_Mi17_medevac_RU": {325};
 	
 	
 	case "B_CBS_WaterShadow730_F": {15};

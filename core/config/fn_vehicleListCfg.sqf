@@ -264,7 +264,7 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo",65000]];
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
-			
+			_return set[count _return,["Cha_Mi17_medevac_RU",2750000]];			
 			   
 			
 			_return set[count _return,["I_Heli_light_03_unarmed_F",450000]];
@@ -504,6 +504,12 @@ switch (_shop) do
 		_return set[count _return,["A3L_ChargerRed",110000]];
 		_return set[count _return,["A3L_ChargerWhite",110000]];
 		_return set[count _return,["Jonzie_Viper",900000]];
+		_return set[count _return,["cl3_challenger_2009_black",110000]];
+		_return set[count _return,["cl3_challenger_2009_red",110000]];
+		_return set[count _return,["cl3_challenger_2009_green",110000]];
+		_return set[count _return,["cl3_challenger_2009_silver",110000]];
+		_return set[count _return,["cl3_challenger_2009_blue",110000]];
+		_return set[count _return,["cl3_challenger_2009_yellow",110000]];		
 		_return set[count _return,["cl3_dodge_charger_f_black",110000]];
 		_return set[count _return,["cl3_dodge_charger_f_blue",110000]];
 		_return set[count _return,["cl3_dodge_charger_f_camourban",110000]];
@@ -534,6 +540,8 @@ switch (_shop) do
 		_return set[count _return,["cl3_dodge_charger_o_white",110000]];
 		_return set[count _return,["cl3_dodge_charger_o_yellow",110000]];
 		_return set[count _return,["cl3_dodge_charger_0_camo",110000]];
+		_return set[count _return,["cl3_dodge_chargerum_f_black",110000]];
+		_return set[count _return,["cl3_dodge_chargerum_o_black",110000]];		
 		_return set[count _return,["A3L_GrandCaravan",90000]];
 		_return set[count _return,["A3L_GrandCaravanBlk",90000]];
 		_return set[count _return,["A3L_GrandCaravanBlue",90000]];
@@ -1204,7 +1212,8 @@ switch (_shop) do
 		_return set[count _return,["sab_BI_An2",130000]];
 		_return set[count _return,["sab_AH_An2",130000]];
 		_return set[count _return,["Sab_Amphi_An2",145000]];
-		_return set[count _return,["RHS_CH_47F_light",3000000]];
+		_return set[count _return,["RHS_CH_47F",3000000]];
+		_return set[count _return,["RHS_CH_47F_light",3000000]];		
 	};
 	
 	case "civ_ship":
@@ -1291,6 +1300,7 @@ switch (_shop) do
 	case "cop_ship":
 	{
 		_return set[count _return,["C_Boat_Civil_01_police_F",24000]];
+		_return set[count _return,["B_CBS_WaterShadow730_F",20000]];		
 	};
 	
 	

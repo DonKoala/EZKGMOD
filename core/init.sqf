@@ -93,8 +93,8 @@ titleText ["Task Force Radio Erfolgreich Geladen!","BLACK IN"];
 		sleep 2;	
 	};
 };
-
 */
+
 diag_log "::Life Client:: Received server functions.";
 0 cutText ["Waiting for the server to be ready...","BLACK FADED"];
 0 cutFadeOut 99999999;

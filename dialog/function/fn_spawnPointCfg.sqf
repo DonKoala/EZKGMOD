@@ -26,7 +26,8 @@ switch (_side) do
 	case civilian:
 	{
 		_return = [
-			["civ_spawn_1","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_1","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_2","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
 		if(__GETC__(life_donator) > 0) then {

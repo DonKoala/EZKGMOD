@@ -8,7 +8,7 @@
 tjms_IntroOn = true;
 showCinemaBorder false;
 camUseNVG false;
-
+/*
 _tjmsIntroText_1 = "tjmsIntroText_1" call BIS_fnc_rscLayer;
 _tjmsIntroText_1 cutRsc["tjmsIntroText_1","PLAIN"];
 _tjmsIntroText_2 = "tjmsIntroText_2" call BIS_fnc_rscLayer;
@@ -109,5 +109,6 @@ sleep 0.4;
 titleText ["", "BLACK IN",1];
 _cam cameraEffect ["terminate","back"];
 camDestroy _cam;
+*/
 tjms_IntroOn = false;
 

@@ -22,7 +22,7 @@ if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
 		if(_projectile in ["26_taser"] && _curWep in ["Taser_26"]) then {
-			if(side _source == west && playerSide != west) then {
+			if(side _source == west or side _source == civilian or side _source == independent) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
 				_isVehicle = if(vehicle player != player) then {true} else {false};
@@ -41,10 +41,8 @@ if(!isNull _source) then {
 				};
 			};
 			
-			//Temp fix for super tasers on cops.
-			if(playerSide == west && side _source == west) then {
-				_damage = false;
-			};
+
+			
 		};
 	};
 };

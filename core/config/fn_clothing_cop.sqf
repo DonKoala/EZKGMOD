@@ -16,30 +16,52 @@ _ret = [];
 switch (_filter) do
 {
 	case 0:
-	{
-		switch(__GETC__(life_coplevel)) do
-		{
-			case 1: {_ret set[count _ret,["Item_AgenteScelto",nil,1000]];};
-			case 2: {_ret set[count _ret,["Item_AgenteScelto",nil,1000]];};
-			case 3: {_ret set[count _ret,["Item_AgenteScelto",nil,1000]];};
-			case 4: {_ret set[count _ret,["Item_AgenteScelto",nil,1000]];};
-			case 5: {_ret set[count _ret,["Item_AgenteScelto",nil,1000]];};
-			case 6: {_ret set[count _ret,["Item_ViceCommissario",nil,1100]];};
-			case 7: {_ret set[count _ret,["Item_Commissario",nil,1200]];};
-			case 8: {_ret set[count _ret,["Item_CommissarioCapo",nil,1200]];};
-			case 9: {_ret set[count _ret,["Item_PrimoDirigente",nil,1300]];};
-			case 10:{_ret set[count _ret,["Item_CapoDellaPolizia",nil,1400]];};
-			default {_ret set[count _ret,["Item_AgenteScelto",nil,1500]];};
+    {
+		if(__GETC__(life_coplevel) > 0) then 						
+        {					
+								_ret set[count _ret,["A3L_Police_Uniform","Cadet Uniform",150]];  //passt 
 		};
-			_ret set[count _ret,["Item_Zoll",nil,1000]];
-			_ret set[count _ret,["Item_PrimoDirigente",nil,1000]];			
-			_ret set[count _ret,["A3L_Prisoner_Outfit",nil,1000]];
-			_ret set[count _ret,["TRYK_U_B_PCUHsW2","Strahlenanzug",600]];
-			
+		if(__GETC__(life_coplevel) > 1) then 
+		{
+								_ret set[count _ret,["a3l_Sheriff_Uniform","Officer Uniform",150]]; //passt
+								_ret set[count _ret,["doj_uni","Coporal Uniform",150]]; //passt		
+		};
+		if(__GETC__(life_coplevel) > 2) then //Sergeant
+        {
+								_ret set[count _ret,["sheriff_uni1","Sergeant Uniform",150]];
+								_ret set[count _ret,["demian2435_pilot_uniform","Pilot Uniform",150]];
+        };
+		if(__GETC__(life_coplevel) > 3) then
+        {
+                                _ret set[count _ret,["police_uni1","Lieutnant Uniform",500]];
+        };
+		if(__GETC__(life_coplevel) > 4) then
+        {
+                                _ret set[count _ret,["sert_uni1","Captain Uniform",150]];
+        };
+		if(__GETC__(life_coplevel) > 5) then
+        {
+								_ret set[count _ret,["police_uni2","Deputy Chief",150]];
+        };
+        if(__GETC__(life_coplevel) > 6) then
+        {
+								_ret set[count _ret,["police_uni3","Chief Uniform",150]];
+        };
+        
+		if(license_cop_swat) then 
+		{
+			                    _ret set[count _ret,["demian2435_swat_man_uniform","SWAT Uniform",150]];
+        };
 		
-		
-		
-	};
+		if(license_cop_fbi) then //fbi
+		{		
+				                _ret set[count _ret,["FBI_uni","FBI Uniform",150]];
+				                _ret set[count _ret,["TRYK_U_B_BLKBLK_R_CombatUniform","FBI-SWAT Uniform",150]];
+
+        };
+
+
+   };
 	
 	case 1:
 	{

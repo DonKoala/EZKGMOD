@@ -29,6 +29,7 @@ switch(_shop) do
 			{
 				["SEK Allzweckladen",
 					[
+						
 						["Binocular",nil,10000],
 						["Rangefinder",nil,20000],
 						["ItemGPS",nil,800],
@@ -78,7 +79,9 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) == 1):
 			{
 				["Polizei Waffenladen - Polizeineuling",
-					[
+					[	
+						["Taser_26","Taser",500],
+                        ["26_cartridge",nil,50],
 						["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
 						["11Rnd_45ACP_Mag","Tazermunition",100],
 						["optic_MRD","Tazervisier",1000],
